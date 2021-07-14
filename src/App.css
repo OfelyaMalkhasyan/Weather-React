@@ -1,0 +1,17 @@
+.foreCast{
+ display: flex;
+ justify-content: space-around;
+}
+
+.weather {
+  background-color:rgb(107, 107, 226);
+  border-radius: 10px;
+  width:150px;
+  text-align: center;
+  margin-top: 200px
+}
+
+.weather:hover {
+  transform: scale3d(1.1);
+  background-image: linear-gradient(to bottom right, rgb(54, 54, 124), rgb(150, 150, 200));
+}
